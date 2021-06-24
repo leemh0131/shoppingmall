@@ -1,7 +1,5 @@
 package com.myproject.controller;
 
-import java.util.Date;
-
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;

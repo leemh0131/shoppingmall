@@ -95,7 +95,7 @@ $(document).ready(function(){
 			url : "/member/login",
 			type : "post",
 			dataType : "text",
-			////data : {"userid" : $("#userid").val()},
+			//data : {"userid" : $("#userid").val()},
 			data : {"member_id" : $("#member_id").val(), "member_pw" : $("#member_pw").val()},
 			success : function(data){
 				//alert("Return Value : " + data);
@@ -116,7 +116,7 @@ $(document).ready(function(){
 						setPopCookie("auto_id", set_id , -1);
 					}
 					
-					location.href = "/";
+					location.href = "../";
 				}
 			}
 			, error : function(data){
